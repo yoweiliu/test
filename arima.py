@@ -4,14 +4,18 @@ version:
 Author: liu1257cc
 Date: 2021-04-01 18:36:43
 LastEditors: Please set LastEditors
-LastEditTime: 2021-04-01 21:11:01
+LastEditTime: 2021-04-01 22:15:09
 '''
 import datetime
 
-starttime = datetime.datetime.now()
-#long running
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
+%matplotlib inline
+
+starttime = datetime.datetime.now()
 
 
 endtime = datetime.datetime.now()
-print (endtime - starttime)
+print('執行時間：',endtime - starttime)
